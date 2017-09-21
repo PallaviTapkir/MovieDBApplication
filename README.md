@@ -2,4 +2,4 @@
 This application includes the Movie Db API (TMdb). 
 
 It  fetches movies list using Api's.
-Fetch images related ti movie. and shows movies details.
+Fetchs images related to movie, and shows movies details.
