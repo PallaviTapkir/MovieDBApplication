@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatImageView;
+import android.support.v7.widget.AppCompatRatingBar;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -46,7 +47,7 @@ public class MovieDetailsActvity extends BaseActivity implements View.OnLayoutCh
     private ViewFlipper viewFlipper;
     private AppCompatTextView movieTitle;
     private AppCompatTextView moviewOverview;
-    private RatingBar ratiingbar;
+    private AppCompatRatingBar ratiingbar;
     private ToggleButton toggleButtonOne, toggleButtonTwo, toggleButtonThree, toggleButtonFour, toggleButtonFive;
     private AppCompatImageView flipperImageOne, flipperImageTwo, flipperImageThree, flipperImageFour, flipperImageFive, flipperImageSingle;
 
@@ -252,7 +253,7 @@ public class MovieDetailsActvity extends BaseActivity implements View.OnLayoutCh
         movieImage = (AppCompatImageView) findViewById(R.id.movie_image);
         movieTitle = (AppCompatTextView) findViewById(R.id.title_name);
         moviewOverview = (AppCompatTextView) findViewById(R.id.movie_description);
-        ratiingbar = (RatingBar) findViewById(R.id.rating_bar);
+        ratiingbar = (AppCompatRatingBar) findViewById(R.id.rating_bar);
 
         flipperImageOne = (AppCompatImageView) findViewById(R.id.movie_image_one);
         flipperImageTwo = (AppCompatImageView) findViewById(R.id.movie_image_two);

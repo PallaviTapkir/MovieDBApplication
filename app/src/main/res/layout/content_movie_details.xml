@@ -196,17 +196,15 @@
                     android:layout_marginTop="7dp"
                     android:background="@color/text_title_color" />
 
-                <RatingBar
+                <android.support.v7.widget.AppCompatRatingBar
                     android:id="@+id/rating_bar"
-                    style="@style/RatingBar"
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:foregroundTint="@color/colorPrimary"
-                    android:indeterminateTint="@color/colorPrimary"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_height="wrap_content"
                     android:numStars="5"
-                    android:clickable="false"
-                    android:progressTint="@color/colorPrimary"
-                    android:stepSize=".5" />
+                    android:stepSize=".5"
+                    android:soundEffectsEnabled="true"
+                    android:progressTint="@color/colorPrimary"/>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
